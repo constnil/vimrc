@@ -1,5 +1,5 @@
 """ let pathogen know my custom plugin path
-call pathogen#infect('~/.myvim/bundles')
+call pathogen#infect('~/.myvim/bundle')
 
 """ environment settings
 set clipboard+=unnamed " share windows clipboard
@@ -61,7 +61,7 @@ try
         source ~/.myvim/platform/mac.vim
     elseif has("win16") || has("win32")
         source ~/.myvim/platform/windows.vim
-    elseif has("linux")
+    elseif has("unix") || has("linux")
         source ~/.myvim/platform/linux.vim
     endif
 catch
