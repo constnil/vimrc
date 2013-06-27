@@ -1,5 +1,5 @@
 """ let pathogen know my custom plugin path
-call pathogen#infect('~/.vim_runtime/memleaks/bundles')
+call pathogen#infect('~/.myvim/bundles')
 
 """ environment settings
 set clipboard+=unnamed " share windows clipboard
@@ -58,11 +58,11 @@ imap <C-h> <left>
 """ load platform specified configs
 try
     if has("mac") || has("macunix")
-        source ~/.vim_runtime/memleaks/platform/mac.vim
+        source ~/.myvim/platform/mac.vim
     elseif has("win16") || has("win32")
-        source ~/.vim_runtime/memleaks/platform/windows.vim
+        source ~/.myvim/platform/windows.vim
     elseif has("linux")
-        source ~/.vim_runtime/memleaks/platform/linux.vim
+        source ~/.myvim/platform/linux.vim
     endif
 catch
 endtry
