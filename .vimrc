@@ -48,8 +48,8 @@ map <leader>ev :vsp %%
 nmap <leader>V :tabe $MYVIMRC<CR>
 nmap <leader>y :%y<CR> 
 
-imap <A-BS> <C-w>
-imap <C-BS> <ESC>S
+imap <C-BS> <C-w>
+imap <A-BS> <ESC>S
 imap <C-l> <right>
 imap <C-j> <down>
 imap <C-k> <up>
