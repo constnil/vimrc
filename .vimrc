@@ -57,7 +57,7 @@ try
         source ~/.myvim/platform/mac.vim
     elseif has("win16") || has("win32")
         source ~/.myvim/platform/windows.vim
-    elseif has("linux")
+    elseif has("unix") || has("linux")
         source ~/.myvim/platform/linux.vim
     endif
 catch
