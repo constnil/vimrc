@@ -17,10 +17,10 @@ if has("gui_running")
     set lines=42
     set mousehide
 
-    map <F9>  <ESC>:set guifont=Consolas:h9<CR>
-    map <F10> <ESC>:set guifont=Consolas:h10<CR>
-    map <F11> <ESC>:set guifont=Consolas:h12<CR>
-    map <F12> <ESC>:set guifont=Consolas:h14<CR>
+    map <F9>  <ESC>:set guifont=Consolas:h12<CR>
+    map <F10> <ESC>:set guifont=Consolas:h14<CR>
+    map <F11> <ESC>:set guifont=Consolas:h16<CR>
+    map <F12> <ESC>:set guifont=Consolas:h20<CR>
 else
     "colo desert
 
