@@ -2,12 +2,14 @@ Installation:
 
     git clone git://github.com/memleaks/vimrc.git ~/.myvim
 
-Create symlinks:
-
-    ln -s ~/.myvim/.vimrc ~/.vim_runtime/my_configs.vim
-
 Switch to the '~/.myvimrc' directory, and fetch submodules:
 
     cd ~/.myvim
     git submodule init
     git submodule update
+
+Execute setup script:
+
+    sh setup.sh
+
+Done
