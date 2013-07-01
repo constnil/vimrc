@@ -50,14 +50,31 @@ nmap <leader>s :set
 nmap <leader>sf :setf 
 
 imap <C-d> <DEL>
+imap <C-a> <ESC>I
+imap <C-e> <ESC>A
+imap <C-f> <right>
+imap <C-b> <left>
 
 """ load platform specified configs
+let s:os = substitute(system('uname'), "\n", "", "")
+function! IsMacOS ()
+    return has("mac") || has("macunix") || (has("unix") && s:os == "Darwin")
+endfunction
+
+function! IsWindows()
+    return has("win16") || has("win32") || has("win64")
+endfunction
+
+function! IsLinux()
+    return has("linux") || (has("unix") && !IsMacOS())
+endfunction
+
 try
-    if has("mac") || has("macunix")
+    if IsMacOS()
         source ~/.myvim/platform/mac.vim
-    elseif has("win16") || has("win32")
+    elseif IsWindows()
         source ~/.myvim/platform/windows.vim
-    elseif has("linux")
+    elseif IsLinux()
         source ~/.myvim/platform/linux.vim
     endif
 catch
