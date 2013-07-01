@@ -1,10 +1,12 @@
-""" key mappings
+
 nmap <leader>li :set list!<CR>
 nmap <leader>no :set number!<CR>
 
 nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
 nmap <leader>bw :bw<CR>
+nmap <leader>bc :Bclose<CR>
+
 nmap <leader>wc <C-w>c
 nmap <leader>wo <C-w>o
 
@@ -24,6 +26,8 @@ nmap <leader>y :%y<CR>
 nmap <leader>d :%d<CR>
 nmap <leader>s :set 
 nmap <leader>sf :setf 
+
+map <leader><CR> :
 
 imap <C-d> <DEL>
 imap <C-a> <ESC>I
