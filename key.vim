@@ -12,7 +12,6 @@ nmap <leader>` <C-^>
 nmap <leader>0 :bfirst<CR>
 nmap <leader>1 :blast<CR>
 
-
 nmap <leader>wc <C-w>c
 nmap <leader>wo <C-w>o
 
@@ -29,8 +28,11 @@ nmap <leader>wt <C-w>T
 
 nmap <leader>tn :tabn<CR>
 nmap <leader>tp :tabp<CR>
+<<<<<<< HEAD
 nmap <C-n> :tabn<CR>
 nmap <C-p> :tabp<CR>
+=======
+>>>>>>> 9b931b9d5f72cfb17d975dac27b31dc63583f6ed
 nmap <leader>tc :tabc<CR>
 nmap <leader>to :tabo<CR>
 nmap <leader>t< :tabmove 0<CR>
