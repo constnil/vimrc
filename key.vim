@@ -1,8 +1,8 @@
 nmap <leader>li :set list!<CR>
 nmap <leader>no :set number!<CR>
 
-" nmap <leader>bn :bn<CR>
-" nmap <leader>bp :bp<CR>
+nmap <leader>bn :bn<CR>
+nmap <leader>bp :bp<CR>
 nmap <leader>j :bn<CR>
 nmap <leader>k :bp<CR>
 nmap <leader>bw :bw<CR>
@@ -11,7 +11,6 @@ nmap <leader>ls :ls<CR>:b
 nmap <leader>` <C-^>
 nmap <leader>0 :bfirst<CR>
 nmap <leader>1 :blast<CR>
-
 
 nmap <leader>wc <C-w>c
 nmap <leader>wo <C-w>o
@@ -27,10 +26,8 @@ nmap <leader>wi <C-w>+
 nmap <leader>wd <C-w>-
 nmap <leader>wt <C-w>T
 
-" nmap <leader>tn :tabn<CR>
-" nmap <leader>tp :tabp<CR>
-nmap <C-n> :tabn<CR>
-nmap <C-p> :tabp<CR>
+nmap <leader>tn :tabn<CR>
+nmap <leader>tp :tabp<CR>
 nmap <leader>tc :tabc<CR>
 nmap <leader>to :tabo<CR>
 nmap <leader>< :tabmove 0<CR>
