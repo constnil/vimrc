@@ -1,5 +1,6 @@
 """ environment settings
 set clipboard+=unnamed " share windows clipboard
+set autochdir
 set autoread
 set matchtime=5
 set matchpairs+=<:>
