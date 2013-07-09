@@ -49,10 +49,10 @@ nmap <leader>no :set number!<CR>
 
 """ command mode shortcuts
 nmap <leader><CR> :
-nmap <leader>a :args 
-nmap <leader>h :help 
-nmap <leader>s :set 
-nmap <leader>sf :setf 
+nmap <leader>a :args<Space>
+nmap <leader>h :help<Space>
+nmap <leader>s :set<Space>
+nmap <leader>sf :setf<Space>
 
 """ insert mode shortcuts
 imap <C-d> <DEL>
@@ -80,3 +80,8 @@ vnoremap { <esc>`>a}<esc>`<i{<esc>gv
 vnoremap < <esc>`>a><esc>`<i<<esc>gv
 vnoremap ' <esc>`>a'<esc>`<i'<esc>gv
 vnoremap " <esc>`>a"<esc>`<i"<esc>gv
+
+""" unmap some amix settings
+autocmd VimEnter * unmap 0
+autocmd VimEnter * unmap j
+autocmd VimEnter * unmap k
