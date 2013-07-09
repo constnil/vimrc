@@ -20,3 +20,6 @@ set listchars+=extends:>
 set listchars+=precedes:>
 set shiftround
 set softtabstop=4
+
+let g:netrw_browse_split=4
+let g:netrw_altv=1
