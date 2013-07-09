@@ -1,4 +1,5 @@
 """ environment settings
+set path+=./**
 set clipboard+=unnamed " share windows clipboard
 set autochdir
 set autoread

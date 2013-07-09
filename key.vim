@@ -1,7 +1,6 @@
 """ toggle setting shortcuts
 nmap <leader>li :set list!<CR>
 nmap <leader>no :set number!<CR>
-nmap <leader>cd :set autochdir!<CR>
 
 """ buffer shortcuts
 nmap <leader>` <C-^>
@@ -48,6 +47,7 @@ nmap <leader>ew :tabe %%
 nmap <leader>es :sp %%
 nmap <leader>ev :vsp %%
 nmap <leader>V :tabe $MYVIMRC<CR>
+nmap <leader>cd :chdir %%
 
 """ command mode shortcuts
 nmap <leader><CR> :
