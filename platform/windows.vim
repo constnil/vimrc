@@ -2,6 +2,8 @@
 " source $VIMRUNTIME/mswin.vim
 " behave mswin
 
+set grepprg=$BIN/UnxUtils/usr/local/wbin/grep.exe
+
 if has("gui_running")
     "colo darkblue
 

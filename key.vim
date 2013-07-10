@@ -1,6 +1,7 @@
 """ toggle setting shortcuts
 nmap <leader>li :set list!<CR>
 nmap <leader>no :set number!<CR>
+nmap <leader>cd :set autochdir!<CR>
 
 """ buffer shortcuts
 nmap <leader>` <C-^>
@@ -24,6 +25,11 @@ nmap <leader>wk <C-w>k
 nmap <leader>wl <C-w>l
 nmap <leader>w= <C-w>=
 nmap <leader>wt <C-w>T
+nmap <leader>wr <C-w>r
+
+""" grep shortcuts
+" nmap <leader>cn :cn<CR>
+" nmap <leader>cp :colder<CR>
 
 """ tab shortcuts
 nmap <leader>tn :tabn<CR>
@@ -38,7 +44,7 @@ nmap <leader>so :so %<CR>
 nmap <leader>y :%y<CR>
 nmap <leader>d :%d<CR>
 cnoremap %% <C-R>=expand('%:p:h').'/'<CR>
-nmap <leader>ew :e %%
+nmap <leader>ew :tabe %%
 nmap <leader>es :sp %%
 nmap <leader>ev :vsp %%
 nmap <leader>V :tabe $MYVIMRC<CR>
