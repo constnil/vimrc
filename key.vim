@@ -60,6 +60,7 @@ imap <C-a> <ESC>I
 imap <C-e> <ESC>A
 imap <C-f> <right>
 imap <C-b> <left>
+imap <C-l> <C-o>zz
 
 """ register shortcuts
 map <leader>0 "0
@@ -74,12 +75,12 @@ map <leader>8 "8
 map <leader>9 "9
 
 """ visual shortcuts
-vnoremap ( <esc>`>a)<esc>`<i(<esc>gv
-vnoremap [ <esc>`>a]<esc>`<i[<esc>gv
-vnoremap { <esc>`>a}<esc>`<i{<esc>gv
-vnoremap < <esc>`>a><esc>`<i<<esc>gv
-vnoremap ' <esc>`>a'<esc>`<i'<esc>gv
-vnoremap " <esc>`>a"<esc>`<i"<esc>gv
+vnoremap ( <esc>`>a)<esc>`<i(<esc>gvll
+vnoremap [ <esc>`>a]<esc>`<i[<esc>gvll
+vnoremap { <esc>`>a}<esc>`<i{<esc>gvll
+vnoremap < <esc>`>a><esc>`<i<<esc>gvll
+vnoremap ' <esc>`>a'<esc>`<i'<esc>gvll
+vnoremap " <esc>`>a"<esc>`<i"<esc>gvll
 
 """ unmap some amix settings
 autocmd VimEnter * unmap 0

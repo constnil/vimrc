@@ -1,3 +1,6 @@
+""" enable shipped plugins
+runtime macros/matchit.vim
+
 """ environment settings
 set path+=./**
 set clipboard+=unnamed " share windows clipboard
