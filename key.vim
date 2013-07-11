@@ -3,6 +3,7 @@ nmap <leader>` <C-^>
 nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
 nmap <leader>bw :bw<CR>
+nmap <A-`> :bw<CR>
 nmap <leader>ls :ls<CR>:
 nmap <leader>lb :ls<CR>:b 
 nmap <leader>bf :bfirst<CR>
