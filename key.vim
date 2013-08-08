@@ -79,7 +79,6 @@ map <leader>9 "9
 vnoremap ( <esc>`>a)<esc>`<i(<esc>gvll
 vnoremap [ <esc>`>a]<esc>`<i[<esc>gvll
 vnoremap { <esc>`>a}<esc>`<i{<esc>gvll
-vnoremap < <esc>`>a><esc>`<i<<esc>gvll
 vnoremap ' <esc>`>a'<esc>`<i'<esc>gvll
 vnoremap " <esc>`>a"<esc>`<i"<esc>gvll
 
