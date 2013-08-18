@@ -10,6 +10,3 @@
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "bundle/slimv"]
-	path = bundle/slimv
-	url = git://github.com/vim-scripts/slimv.vim
