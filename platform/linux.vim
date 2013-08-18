@@ -1,1 +1,1 @@
-let g:slimv_swank_cmd='!screen -d -m ccl -l /usr/share/vim/vimfiles/slime/start-swank.lisp'
+let g:slimv_swank_cmd='!screen -d -m lisp -l ~/.myvim/bundle/slimv/slime/start-swank.lisp'
