@@ -1,3 +1,6 @@
+""" set ui languages
+lang mes en_US.UTF-8
+
 """ enable shipped plugins
 runtime macros/matchit.vim
 

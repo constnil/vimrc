@@ -31,4 +31,4 @@ else
     set shellxquote=\"
 endif
 
-let g:slimv_swank_cmd='!start /min "ccl.bat" -l "D:/HOME/usr/bin/Vim/vimfiles/slime/start-swank.lisp"' 
+let g:slimv_swank_cmd='!start /min "ccl.bat" -l "~/.myvim/bundle/slimv/slime/start-swank.lisp"' 
