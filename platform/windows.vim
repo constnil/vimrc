@@ -26,7 +26,7 @@ if has("gui_running")
 else
     "colo desert
 
-    set shell=D:/HOME/usr/bin/cygwin/bin/bash
+    set shell=D:/HOME/cygwin/bin/bash
     set shellcmdflag=--login\ -c
     set shellxquote=\"
 endif
