@@ -1,3 +1,5 @@
+"""" platform independent key mappings
+
 """ buffer shortcuts
 nmap <leader>` <C-^>
 nmap <leader>bn :bn<CR>
