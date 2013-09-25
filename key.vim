@@ -20,6 +20,11 @@ nmap <leader>w= <C-w>=
 nmap <leader>wt <C-w>T
 nmap <leader>wr <C-w>r
 
+map <S-Up> <C-w>+
+map <S-Down> <C-w>-
+map <S-Left> <C-w><
+map <S-Right> <C-w>>
+
 """ grep shortcuts
 " nmap <leader>cn :cn<CR>
 " nmap <leader>cp :colder<CR>
