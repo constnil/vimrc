@@ -6,12 +6,20 @@ nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
 nmap <leader>bw :bw<CR>
 nmap <A-`> :bw<CR>
-nmap <leader>ls :ls<CR>:
-nmap <leader>lb :ls<CR>:b 
+nmap <leader>ls :ls<CR>:b
 nmap <leader>bf :bfirst<CR>
 nmap <leader>bl :blast<CR>
 
 """ window shortcuts
+nnoremap <C-m> <C-w>_<C-w><Bar>
+nnoremap <C-e> <C-w>=
+
+nnoremap <S-Up> <C-w>+
+nnoremap <S-Down> <C-w>-
+nnoremap <S-Left> <C-w><
+nnoremap <S-Right> <C-w>>
+
+nmap <leader>wc :new<CR>
 nmap <leader>wd <C-w>c
 nmap <leader>wo <C-w>o
 nmap <leader>wn <C-w>w
@@ -19,11 +27,6 @@ nmap <leader>wp <C-w>W
 nmap <leader>w= <C-w>=
 nmap <leader>wt <C-w>T
 nmap <leader>wr <C-w>r
-
-map <S-Up> <C-w>+
-map <S-Down> <C-w>-
-map <S-Left> <C-w><
-map <S-Right> <C-w>>
 
 """ grep shortcuts
 " nmap <leader>cn :cn<CR>
@@ -49,7 +52,6 @@ nmap <leader>ew :tabe %%
 nmap <leader>es :sp %%
 nmap <leader>ev :vsp %%
 nmap <leader>V :tabe $MYVIMRC<CR>
-nmap <leader>cd :chdir %%
 
 """ toggle setting shortcuts
 nmap <leader>li :set list!<CR>
