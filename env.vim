@@ -62,8 +62,8 @@ function! InsertStatuslineColor(mode)
         hi statusline guibg=DarkRed guifg=Black ctermfg=1 ctermbg=0
     endif
 endfunction
-""" default the statusline to green when entering Vim
+
 hi statusline guibg=DarkGrey guifg=White ctermfg=8 ctermbg=15
-""" autocommands
+
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertLeave * hi statusline guibg=DarkGrey guifg=White ctermfg=8 ctermbg=15

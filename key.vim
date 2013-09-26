@@ -20,6 +20,7 @@ nnoremap <S-Left> <C-w><
 nnoremap <S-Right> <C-w>>
 
 nmap <leader>wc :new<CR>
+nmap <leader>wv :vnew<CR>
 nmap <leader>wd <C-w>c
 nmap <leader>wo <C-w>o
 nmap <leader>wn <C-w>w
