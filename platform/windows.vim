@@ -11,10 +11,10 @@ set grepprg=$BIN/UnxUtils/usr/local/wbin/grep.exe
 """         PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 """     fi
 """ I have environment variable ROOT set to cygwin install dir
-set shell=$ROOT/bin/bash
-set shellcmdflag=--login\ -c
-set shellredir=>%s\ 2>&1
-set shellxquote=\"
+"""set shell=$ROOT/bin/bash
+"""set shellcmdflag=--login\ -c
+"""set shellredir=>%s\ 2>&1
+"""set shellxquote=\"
 
 if has("gui_running")
     "" gui settings
