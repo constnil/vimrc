@@ -57,15 +57,15 @@ let g:netrw_altv=1
 function! InsertStatuslineColor(mode)
     if a:mode == 'i'
         hi statusline guifg=Black guibg=Cyan    gui=none ctermfg=6 ctermbg=0 cterm=none
-    elseif a:mode == '            r'
+    elseif a:mode == 'r'
         hi statusline guifg=Black guibg=Purple  gui=none ctermfg=5 ctermbg=0 cterm=none
     else
         hi statusline guifg=Black guibg=DarkRed gui=none ctermfg=1 ctermbg=0 cterm=none
     endif
 endfunction
-""" default the statusline to green when entering Vim
+
 hi statusline   guifg=White guibg=DarkGrey gui=none ctermfg=8   ctermbg=15  cterm=none
 hi StatusLineNC guifg=White guibg=DarkGrey gui=none ctermfg=101 ctermbg=238 cterm=none
-""" autocommands
+
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertLeave * hi statusline guifg=White guibg=DarkGrey gui=none ctermfg=8 ctermbg=15 cterm=none
