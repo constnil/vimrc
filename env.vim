@@ -64,8 +64,8 @@ function! InsertStatuslineColor(mode)
     endif
 endfunction
 
-hi statusline   guifg=White guibg=DarkGrey gui=none ctermfg=8   ctermbg=15  cterm=none
-hi StatusLineNC guifg=White guibg=DarkGrey gui=none ctermfg=101 ctermbg=238 cterm=none
+hi statusline   guifg=White guibg=DarkGrey gui=none ctermfg=8 ctermbg=15  cterm=none
+hi StatusLineNC guifg=LightGrey guibg=DarkRed  gui=none ctermfg=8 ctermbg=240 cterm=none
 
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertLeave * hi statusline guifg=White guibg=DarkGrey gui=none ctermfg=8 ctermbg=15 cterm=none
