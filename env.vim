@@ -47,6 +47,7 @@ if has("gui_running")
 else
     "" terminal settings
     set t_Co=256
+    set mouse=a
 endif
 
 """ plugin settings
