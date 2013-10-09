@@ -92,6 +92,9 @@ vnoremap { <esc>`>a}<esc>`<i{<esc>gvll
 vnoremap ' <esc>`>a'<esc>`<i'<esc>gvll
 vnoremap " <esc>`>a"<esc>`<i"<esc>gvll
 
+""" misc key mappings
+map <leader>/ :noh<CR>
+
 """ unmap some amix settings
 autocmd VimEnter * unmap 0
 autocmd VimEnter * unmap j
