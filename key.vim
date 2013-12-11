@@ -86,14 +86,14 @@ map <leader>8 "8
 map <leader>9 "9
 
 """ visual shortcuts
-vnoremap ( <esc>`>a)<esc>`<i(<esc>gvll
-vnoremap [ <esc>`>a]<esc>`<i[<esc>gvll
-vnoremap { <esc>`>a}<esc>`<i{<esc>gvll
-vnoremap ' <esc>`>a'<esc>`<i'<esc>gvll
-vnoremap " <esc>`>a"<esc>`<i"<esc>gvll
+vnoremap ( <ESC>`>a)<ESC>`<i(<ESC>gvll
+vnoremap [ <ESC>`>a]<ESC>`<i[<ESC>gvll
+vnoremap { <ESC>`>a}<ESC>`<i{<ESC>gvll
 
 """ misc key mappings
 map <leader>/ :noh<CR>
+nmap <leader>k :call DeleteTrailingWS()<CR>
+nmap <leader>j Ji<CR><ESC><leader>k
 
 """ unmap some amix settings
 autocmd VimEnter * unmap 0
