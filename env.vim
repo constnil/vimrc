@@ -32,7 +32,9 @@ set listchars+=extends:>
 set listchars+=precedes:>
 
 set shiftround
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 set winheight=36
 set winwidth=120

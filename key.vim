@@ -55,7 +55,7 @@ nmap <leader>ev :vsp %%
 nmap <leader>V :tabe $MYVIMRC<CR>
 
 """ toggle setting shortcuts
-nmap <leader>li :set list!<CR>
+nmap <leader>; :set list!<CR>
 nmap <leader>no :set number!<CR>
 
 """ command mode shortcuts
@@ -94,6 +94,15 @@ vnoremap { <ESC>`>a}<ESC>`<i{<ESC>gvll
 map <leader>/ :noh<CR>
 nmap <leader>k :call DeleteTrailingWS()<CR>
 nmap <leader>j Ji<CR><ESC><leader>k
+
+""" key mapping for javascript
+" call jslint check current file
+nmap <leader>l :!jslint %<CR>
+"" key mapping from spa book
+" change html to js string code
+vmap <silent> ;q :s?^\(\s*\)\(.*\)\s*$?\1+ '\2'?<CR>
+" revert js string code to html
+vmap <silent> ;h :s?^\(\s*\)+ '\([^']\+\)',*\s*$?\1\2?g<CR>
 
 """ unmap some amix settings
 autocmd VimEnter * unmap 0
