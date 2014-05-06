@@ -1,5 +1,5 @@
 """ let pathogen know my custom plugin path
-call pathogen#infect('~/.myvim/bundle')
+call pathogen#infect('~/.myvim/bundle/{}')
 
 """ load platform specified configs
 let s:os = substitute(system('uname'), "\n", "", "")
