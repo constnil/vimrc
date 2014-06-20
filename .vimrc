@@ -12,7 +12,7 @@ function! IsWindows()
 endfunction
 
 function! IsCygwin()
-    return has( 'win32unix' )
+    return has('win32unix') || has('win64unix')
 endfunction
 
 function! IsLinux()
