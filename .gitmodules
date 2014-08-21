@@ -1,15 +1,9 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = git://github.com/tpope/vim-commentary.git
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/dispatch"]
 	path = bundle/dispatch
 	url = git://github.com/tpope/vim-dispatch.git
 [submodule "bundle/slimv"]
 	path = bundle/slimv
 	url = git://github.com/memleaks/slimv.vim
-[submodule "bundle/vimerl"]
-	path = bundle/vimerl
-	url = git://github.com/memleaks/vimerl.git
