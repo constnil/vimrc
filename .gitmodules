@@ -7,3 +7,6 @@
 [submodule "bundle/slimv"]
 	path = bundle/slimv
 	url = git://github.com/memleaks/slimv.vim
+[submodule "bundle/vim-erlang-compiler"]
+	path = bundle/vim-erlang-compiler
+	url = git://github.com/vim-erlang/vim-erlang-compiler.git
