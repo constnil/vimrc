@@ -38,5 +38,5 @@ endif
 """     set USERPROFILE=%HOME%
 """     set CCL_DEFAULT_DIRECTORY=%BIN%/ccl/1.9
 """     wx86cl.exe %*
-let g:slimv_swank_cmd='!start /min "ccl.bat" -l "~/.myvim/bundle/slimv/slime/start-swank.lisp"' 
+"let g:slimv_swank_cmd='!start /min "ccl.bat" -l "~/.myvim/bundle/slimv/slime/start-swank.lisp"' 
 

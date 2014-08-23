@@ -1,9 +1,9 @@
 if has("gui_running")
     "" gui settings
-    winpos 280 50
-    set columns=120
+    winpos 80 50
+    set columns=100
     set guifont=Courier\ 10\ Pitch\ 14
-    set lines=44
+    set lines=30
     set mousehide
 
     map <F9>  <ESC>:set guifont=Courier\ 10\ Pitch\ 10<CR>
@@ -14,4 +14,4 @@ else
     "" terminal settings
 endif
 
-let g:slimv_swank_cmd='!screen -d -m clbuild lisp --load ~/.myvim/bundle/slimv/slime/start-swank.lisp'
+"let g:slimv_swank_cmd='!screen -d -m clbuild lisp --load ~/.myvim/bundle/slimv/slime/start-swank.lisp'
