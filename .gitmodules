@@ -4,6 +4,3 @@
 [submodule "bundle/vim-erlang-compiler"]
 	path = bundle/vim-erlang-compiler
 	url = git://github.com/vim-erlang/vim-erlang-compiler.git
-[submodule "bundle/fireplace"]
-	path = bundle/fireplace
-	url = git://github.com/tpope/vim-fireplace.git
