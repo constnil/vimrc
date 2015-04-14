@@ -1,4 +1,5 @@
 cd ~/.myvim
+git pull
 
 git submodule init
 git submodule sync
