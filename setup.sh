@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd ~/.myvim
 git pull
 
