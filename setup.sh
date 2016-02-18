@@ -18,4 +18,10 @@ else
 fi
 
 sh ~/.vim_runtime/install_awesome_vimrc.sh
-ln -sf ~/.myvim/.vimrc ~/.vim_runtime/my_configs.vim
+
+if [ -e ~/.vim_runtime/my_configs.vim ]
+then
+  echo "~/.vim_runtime/my_configs.vimc exists, check it out!"
+else
+  ln -sf ~/.myvim/.vimrc ~/.vim_runtime/my_configs.vim
+fi
