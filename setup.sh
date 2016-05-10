@@ -1,14 +1,14 @@
 #!/bin/sh
 
 cd ~/.myvim
-git pull
+git pull --rebase
 git gc
 
 git submodule init
 git submodule sync
 git submodule update
 git submodule foreach git checkout master
-git submodule foreach git pull -f origin
+git submodule foreach git pull --rebase origin
 git submodule foreach git gc
 
 if [ -d ~/.vim_runtime ]
