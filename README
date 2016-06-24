@@ -1,10 +1,10 @@
 Installation:
 
-    git clone git://github.com/memleaks/vimrc.git ~/.myvim
+    git clone git://github.com/memleaks/vimrc.git ~/.vim.d
 
-Switch to the '~/.myvim' directory, execute setup script:
+Switch to the '~/.vim.d' directory, execute setup script:
 
-    cd ~/.myvim
-    sh setup.sh
+    cd ~/.vim.d
+    sh setup
 
 Done

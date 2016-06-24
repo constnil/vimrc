@@ -1,0 +1,21 @@
+#!/bin/sh
+
+cd ~/.vim.d
+git pull --rebase
+
+if [ -d ~/.vim_runtime ]
+then
+  cd ~/.vim_runtime
+  git pull --rebase
+else
+  git clone --recursive git://github.com/amix/vimrc.git ~/.vim_runtime
+fi
+
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+if [ -e ~/.vim_runtime/my_configs.vim ]
+then
+  echo "~/.vim_runtime/my_configs.vim exists, check it out!"
+else
+  ln -sf ~/.vim.d/.vimrc ~/.vim_runtime/my_configs.vim
+fi
