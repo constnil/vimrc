@@ -1,5 +1,5 @@
 """ let pathogen know my custom plugin path
-call pathogen#infect('~/.myvim/bundle/{}')
+call pathogen#infect('~/.vim.d/bundle/{}')
 
 """ load platform specified configs
 let s:os = substitute(system('uname'), "\n", "", "")
@@ -20,16 +20,16 @@ function! IsLinux()
 endfunction
 
 try
-    source ~/.myvim/env.vim
-    source ~/.myvim/key.vim
+    source ~/.vim.d/env.vim
+    source ~/.vim.d/key.vim
     if IsMacOS()
-        source ~/.myvim/platform/mac.vim
+        source ~/.vim.d/platform/mac.vim
     elseif IsWindows()
-        source ~/.myvim/platform/windows.vim
+        source ~/.vim.d/platform/windows.vim
     elseif IsCygwin()
-        source ~/.myvim/platform/cygwin.vim
+        source ~/.vim.d/platform/cygwin.vim
     elseif IsLinux()
-        source ~/.myvim/platform/linux.vim
+        source ~/.vim.d/platform/linux.vim
     endif
 catch
 endtry
